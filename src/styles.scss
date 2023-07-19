@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/fonts/Montserrat.ttf") format("truetype")
+}
+
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  min-width: 320px;
+  background-color: #F5F5F5;
+}

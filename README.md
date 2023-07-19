@@ -1,1 +1,1 @@
-# icon-lottery
+icon-lottery

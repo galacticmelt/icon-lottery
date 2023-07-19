@@ -1,0 +1,14 @@
+<div class="icon-lottery">
+  <h1>Icon Lottery</h1>
+  <fa-icon 
+    [icon]="currentIcon" 
+    size="8x" 
+    [animation]="isBlurred ? 'fade' : 'bounce'"
+    [style]="{
+      '--fa-animation-iteration-count': isBlurred ? 'infinite' : '1', 
+    }"
+    [class.blurred]="isBlurred"
+  >
+  </fa-icon>
+  <button (click)="showRandomIcon()">Pick icon!</button>
+</div>
