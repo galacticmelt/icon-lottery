@@ -3,11 +3,11 @@
   <fa-icon 
     [icon]="currentIcon" 
     size="8x" 
-    [animation]="isBlurred ? 'fade' : 'bounce'"
+    [animation]="iconBlurred ? 'fade' : 'bounce'"
+    [class.blurred]="iconBlurred"
     [style]="{
-      '--fa-animation-iteration-count': isBlurred ? 'infinite' : '1', 
+      '--fa-animation-iteration-count': iconBlurred ? 'infinite' : '1', 
     }"
-    [class.blurred]="isBlurred"
   >
   </fa-icon>
   <button (click)="showRandomIcon()">Pick icon!</button>
